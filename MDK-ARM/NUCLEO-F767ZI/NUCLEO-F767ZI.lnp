@@ -1,0 +1,21 @@
+--cpu Cortex-M7.fp.dp
+"nucleo-f767zi\stm32f7xx_nucleo_144.o"
+"nucleo-f767zi\system_stm32f7xx.o"
+"nucleo-f767zi\main.o"
+"nucleo-f767zi\stm32f7xx_hal_msp.o"
+"nucleo-f767zi\stm32f7xx_it.o"
+"nucleo-f767zi\stm32f7xx_hal_usart.o"
+"nucleo-f767zi\stm32f7xx_hal_rcc.o"
+"nucleo-f767zi\stm32f7xx_hal_pwr_ex.o"
+"nucleo-f767zi\stm32f7xx_hal_uart.o"
+"nucleo-f767zi\stm32f7xx_hal_dma.o"
+"nucleo-f767zi\stm32f7xx_hal.o"
+"nucleo-f767zi\stm32f7xx_hal_rcc_ex.o"
+"nucleo-f767zi\stm32f7xx_hal_cortex.o"
+"nucleo-f767zi\stm32f7xx_hal_gpio.o"
+"nucleo-f767zi\stm32f7xx_hal_pwr.o"
+"nucleo-f767zi\startup_stm32f767xx.o"
+--library_type=microlib --strict --scatter "NUCLEO-F767ZI\NUCLEO-F767ZI.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "NUCLEO-F767ZI.map" -o NUCLEO-F767ZI\NUCLEO-F767ZI.axf
